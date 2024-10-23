@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Software Raycaster</title>
+  <script src="./scenemaking.js"></script>
+  <script src="./raytracer.js"></script>
+  <link rel="stylesheet" href="./style.css"></link>
+ </head>
+ <body>
+  <noscript>Sorry, this webpage requires JavaScript.</noscript>
+  <h1>Software Raytracer Playground -- WIP</h1>
+  Made by <a href="https://arnavcs.github.io/">[Arnav Kumar]</a>. For more technical details and implementation, see the <a href="https://github.com/arnavcs/software-raytracer">{Github}</a>.
+  <hr />
+   Render width: <input type="number" id="render-width" value="200">
+   Render height: <input type="number" id="render-height" value="200">
+   <br />
+   <input type="button" onclick="renderScene()" value="Render Scene">
+  <hr />
+  <canvas id="screen"></canvas>
+ </body>
+</html>
+
